@@ -44,15 +44,12 @@
   font-size: 30px;
   transition: 0.3s;
   font-family: oregano;
-}
-.btn-text {
   color: var(--secondary-color);
 }
-.btn-text:hover {
+
+.btn-front:hover {
   text-decoration: none;
   color: var(--primary-color);
-}
-.btn-front:hover {
   background-color: #4b2b8b;
   text-decoration: none;
 }
@@ -83,9 +80,27 @@ p {
   display: block;
   margin-top: 100px;
 }
-.col-sm {
+.col-md {
+  padding: 0 2px;
+  text-align: center;
   margin: 0 5px;
   border: 3px solid #4b2b8b;
   background-color: var(--primary-color);
   border-radius: 15px;
+}
+.see-more-btn {
+  margin-bottom: 5px;
+  border: 2px solid var(--secondary-color);
+  background-color: #e2d6fc;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: oregano;
+}
+.see-more-btn:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: #4b2b8b;
+  text-decoration: none;
 }
