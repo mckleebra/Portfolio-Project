@@ -40,6 +40,24 @@
     ></script>
     <title>McKenzie Brannon - About Page</title>
   </head>
+  <style>
+    @media (max-width: 800px) {
+      #my-name {
+        font-size: 45px;
+      }
+      #based-in {
+        font-size: 25px;
+      }
+      .about-summary {
+        line-height: 1.5rem;
+      }
+    }
+    @media (max-width: 280px) {
+      .wisconsin-state {
+        width: 70%;
+      }
+    }
+  </style>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="index.html">McKenzie Brannon</a>
@@ -65,8 +83,10 @@
     <div class="container about-container">
       <div class="row">
         <div class="col-lg-8">
-          <h1 class="hello">Hi, I'm McKenzie Brannon</h1>
-          <h2 class="hello mt-2">Digital Marketer based in Wisconsin, USA</h2>
+          <h1 class="hello" id="my-name">Hi, I'm McKenzie Brannon</h1>
+          <h2 class="hello mt-2" id="based-in">
+            Digital Marketer based in Wisconsin, USA
+          </h2>
           <p class="about-summary mt-4">
             I graduated from the University of Wisconsin Whitewater in April
             2022 with a bachelors in Digital Marketing. Recently I have taken an
@@ -80,10 +100,13 @@
             take heat with a cool head still in tact!
           </p>
         </div>
-        <div class="col-lg-4 text-center">
-          <img src="images/Wis.jpeg" class="text-center wisconsin-state" />
+        <div class="col-lg-4 d-none d-lg-block text-center">
+          <img src="images/Wis.jpeg" class="wisconsin-state" />
         </div>
       </div>
     </div>
+    <footer class="text-center" id="email-info">
+      Contact Me: <a href="mailto:mckleebra@gmail.com">mckleebra@gmail.com</a>
+    </footer>
   </body>
 </html>

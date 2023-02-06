@@ -1,6 +1,8 @@
 :root {
   --primary-color: #f1dff1;
   --secondary-color: #1d0057;
+  --heading-text: oregano;
+  --paragraph-text: sanchez;
 }
 .navbar-brand {
   font-family: oregano;
@@ -115,4 +117,18 @@ p {
 }
 .hello {
   text-align: center;
+}
+#my-name {
+  font-size: 80px;
+  font-family: var(--heading-text);
+}
+#based-in {
+  font-size: 35px;
+  font-family: var(--paragraph-text);
+}
+.about-summary {
+  line-height: 2rem;
+}
+#email-info {
+  margin-top: 150px;
 }
