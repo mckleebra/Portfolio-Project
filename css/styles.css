@@ -119,16 +119,53 @@ p {
   text-align: center;
 }
 #my-name {
+  color: var(--secondary-color);
   font-size: 80px;
   font-family: var(--heading-text);
 }
 #based-in {
+  color: #4b2b8b;
   font-size: 35px;
   font-family: var(--paragraph-text);
 }
 .about-summary {
   line-height: 2rem;
 }
-#email-info {
-  margin-top: 150px;
+#contact {
+  color: #1d0057;
+  font-family: var(--heading-text);
+  font-size: 60px;
+  margin-top: 120px;
+}
+#email-link {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-family: var(--heading-text);
+  font-size: 30px;
+  color: #1d0057;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+#email-link:hover {
+  color: #4b2b8b;
+}
+.to-portfolio {
+  text-align: center;
+  display: block;
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  border: 2px solid var(--secondary-color);
+  background-color: #e2d6fc;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: oregano;
+}
+.to-portfolio:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: #4b2b8b;
+  text-decoration: none;
 }
