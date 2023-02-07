@@ -172,3 +172,11 @@ p {
 .heading-space {
   margin-top: 100px;
 }
+.work-headings {
+  margin: 0 auto;
+  display: block;
+  font-family: sanchez;
+  font-size: 30px;
+  width: 70%;
+  color: #4b2b8b;
+}
