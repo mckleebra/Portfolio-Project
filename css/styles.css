@@ -118,7 +118,7 @@ p {
 .hello {
   text-align: center;
 }
-#my-name {
+.intro-content {
   color: var(--secondary-color);
   font-size: 80px;
   font-family: var(--heading-text);
@@ -168,4 +168,7 @@ p {
   color: var(--primary-color);
   background-color: #4b2b8b;
   text-decoration: none;
+}
+.heading-space {
+  margin-top: 100px;
 }
