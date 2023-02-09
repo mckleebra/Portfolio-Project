@@ -36,7 +36,7 @@
   border-bottom: 2px solid black;
   background-color: #e3d7fd;
 }
-.btn-front {
+.reference-btns {
   border: 2px solid var(--secondary-color);
   background-color: #e2d6fc;
   padding: 10px;
@@ -47,7 +47,7 @@
   color: var(--secondary-color);
 }
 
-.btn-front:hover {
+.reference-btns:hover {
   text-decoration: none;
   color: var(--primary-color);
   background-color: #4b2b8b;
@@ -96,6 +96,13 @@ p {
   font-size: 20px;
   transition: 0.3s;
   font-family: oregano;
+}
+.see-more-btn a {
+  color: #1d0057;
+  text-decoration: none;
+}
+.see-more-btn a:hover {
+  color: var(--primary-color);
 }
 .see-more-btn:hover {
   text-decoration: none;
