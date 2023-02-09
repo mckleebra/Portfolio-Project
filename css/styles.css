@@ -195,6 +195,12 @@ p {
   text-underline-offset: 5px;
 }
 .portfolio-paragraphs {
-  font-size: 25px;
+  font-size: 20px;
   margin: 20px 10px;
+}
+hr {
+  border: none;
+  height: 2px;
+  color: #4b2b8b;
+  background-color: #4b2b8b;
 }
