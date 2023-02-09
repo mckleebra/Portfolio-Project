@@ -144,7 +144,8 @@ p {
   font-size: 60px;
   margin-top: 120px;
 }
-#email-link {
+#email-link,
+.portfolio-paragraphs a {
   margin: 0 auto;
   display: block;
   text-align: center;
@@ -154,7 +155,8 @@ p {
   text-decoration: none;
   margin-bottom: 30px;
 }
-#email-link:hover {
+#email-link:hover,
+.portfolio-paragraphs a:hover {
   color: #4b2b8b;
 }
 .to-portfolio {
