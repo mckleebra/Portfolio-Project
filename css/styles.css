@@ -141,7 +141,7 @@ p {
 #contact {
   color: #1d0057;
   font-family: var(--heading-text);
-  font-size: 60px;
+  font-size: 40px;
   margin-top: 120px;
 }
 #email-link,
@@ -150,10 +150,9 @@ p {
   display: block;
   text-align: center;
   font-family: var(--heading-text);
-  font-size: 30px;
+  font-size: 25px;
   color: #1d0057;
   text-decoration: none;
-  margin-bottom: 30px;
 }
 #email-link:hover,
 .portfolio-paragraphs a:hover {
@@ -205,4 +204,18 @@ hr {
   height: 2px;
   color: #4b2b8b;
   background-color: #4b2b8b;
+}
+#contact ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+#contact li {
+  display: inline-block;
+}
+footer {
+  background-color: var(--primary-color);
+}
+#contact a:hover {
+  opacity: 80%;
 }
