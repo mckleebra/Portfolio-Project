@@ -81,6 +81,7 @@ p {
 }
 .col-md {
   padding: 0 2px;
+  padding-bottom: 20px;
   text-align: center;
   margin: 0 5px;
   border: 3px solid #4b2b8b;
@@ -88,6 +89,7 @@ p {
   border-radius: 15px;
 }
 .see-more-btn {
+  color: #1d0057;
   margin-bottom: 5px;
   border: 2px solid var(--secondary-color);
   background-color: #e2d6fc;
@@ -97,13 +99,7 @@ p {
   transition: 0.3s;
   font-family: oregano;
 }
-.see-more-btn a {
-  color: #1d0057;
-  text-decoration: none;
-}
-.see-more-btn a:hover {
-  color: var(--primary-color);
-}
+
 .see-more-btn:hover {
   text-decoration: none;
   color: var(--primary-color);
